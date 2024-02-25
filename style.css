@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.WhoAmI {
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    align-items: flex-start;
+
+    background: #fff;
+}
+
+.Profile-Container {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+
+    background: #b5e6f6;
+}
+
+.Picture-Container {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+
+    border-radius: 100px;
+    border: 5px solid #fff;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Picture-Container > img {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+
+    border-radius: 100px;
+}
+
+.Profile-Container > .Info-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.Profile-Container > .Info-Container > .Name-Wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #656565;
+    font-family: Jua;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Profile-Container > .Info-Container > .Position-Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #656565;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Profile-Container > .Line-1 {
+    width: 200px;
+    height: 0px;
+
+    stroke-width: 2px;
+    stroke: #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Profile-Container > .Contents-Container {
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.Contents-Container > .Email-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.Email-Container > .Email-Wrapper {
+    width: 60px;
+    height: 60px;
+}
+
+.Contents-Container .Address-Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #656565;
+    font-family: Jua;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Profile-Container > .Contents-Container > .Velog-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.Velog-Container > .Velog-Wrapper {
+    width: 50px;
+    height: 50px;
+}
+
+.Contents-Container > .Github-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.Github-Container > .Github-Wrapper {
+    width: 45px;
+    height: 43.89px;
+    fill: #656565;
+}
+
+.Contents-Container > .Instar-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.Instar-Container > .Instar-Wrapper {
+    width: 50px;
+    height: 50px;
+}
+
+.Info-Container > .Intro-Container {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+
+    background: #fff;
+}
+
+.Info-Container > .Intro-Container > .Title-Wrapper {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    border-radius: 50px;
+    border: 5px solid #b5e6f6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #b5e6f6;
+    font-family: Jua;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Info-Container > .Intro-Container > .Contents-Container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.Intro-Container > .Contents-Container > .Picture-Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture-Wrapper > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.Contents-Container > .Text-Container {
+    display: flex;
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    color: #000;
+    font-family: Jua;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Text-Container > ul {
+    display: flex;
+    padding: 6px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    list-style: none;
+}
+
+.Info-Container > .Education-Container {
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.Education-Container > .Title-Wrapper {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #b5e6f6;
+    font-family: Jua;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 50px;
+    border: 5px solid #b5e6f6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Education-Container > .Contents-Container {
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    width: calc(100vw - 370px);
+}
+
+.History-01-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.Education-Container > .Contents-Container > .Division-Line {
+    height: 30rem;
+
+    stroke-width: 3px;
+    stroke: #b5e6f6;
+}
+
+.History-01-Container > .History-Container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.History-Container > .Icon-Container {
+    width: 50px;
+    height: 50px;
+}
+
+.History-Container > .Content-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.History-Container > .Content-Container > .Period-Wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #71dbff;
+    font-family: Jua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.History-Container > .Content-Container > .Title-Wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #000;
+    font-family: Jua;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.History-Container > .Content-Container > .Info-Wrapper {
+    display: flex;
+    padding: 9px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.History-02-Container {
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.History-02-Container > .History-Container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
